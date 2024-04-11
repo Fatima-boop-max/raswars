@@ -1,0 +1,27 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #202020;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.navbar a {
+  text-decoration: none;
+  color: inherit;
+  font-weight: bold;
+  margin-right: 20px; /* Use margin-right instead of right-margin */
+}
+
+.navbar a:hover {
+  color: #3399ff;
+}
+
+.navbar img {
+  height: 30px;
+  margin-right: 10px;
+}
